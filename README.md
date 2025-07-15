@@ -1,36 +1,32 @@
-This repository contains a Python script (Automated Shape Recognition with OpenCV.py) that performs automated shape recognition on an image using OpenCV.
+This repository contains a Python script (`Automated Shape Recognition with OpenCV.py`) that performs **automated shape recognition** on an image using **OpenCV**.
 
-Features
-------------------------------------------------------------------------------------------------
-Image Loading and Preprocessing: Reads an input image and converts it to grayscale for processing.
+## Features
 
-Contour Detection: Identifies contours within the image to outline different shapes.
+  * **Image Loading and Preprocessing**: Reads an input image and converts it to grayscale for processing.
+  * **Contour Detection**: Identifies contours within the image to outline different shapes.
+  * **Shape Recognition**: Recognizes common geometric shapes such as triangles, squares, rectangles, pentagons, and stars based on their number of vertices.
+  * **Visual Output**: Draws and labels the identified shapes directly on the original image.
 
-Shape Recognition: Recognizes common geometric shapes such as triangles, squares, rectangles, pentagons, and stars based on their number of vertices.
+## Getting Started
 
-Visual Output: Draws and labels the identified shapes directly on the original image.
+### Prerequisites
 
-Getting Started
-------------------------------------------------------------------------------------------------
-Prerequisites
 Ensure you have Python installed, along with the OpenCV library:
 
-  Bash
+```bash
+pip install opencv-python numpy
+```
 
-  pip install opencv-python numpy
+### How to Run
 
-How to Run
-----------------------------------------------------------------------------------------
-1.Place an image named shapes.jpg in the same directory as the script. This image should contain the shapes you wish to recognize.
+1.  Place an image named `shapes.jpg` in the same directory as the script. This image should contain the shapes you wish to recognize.
 
-2.Save the code as Automated Shape Recognition with OpenCV.py.
+2.  Save the code as `Automated Shape Recognition with OpenCV.py`.
 
-3.Run the script from your terminal:
+3.  Run the script from your terminal:
 
-  Bash
+    ```bash
+    python "Automated Shape Recognition with OpenCV.py"
+    ```
 
-  python "Automated Shape Recognition with OpenCV.py"
-  
-The script will process the shapes.jpg image, identify the shapes, and display the result. Press any key to close the displayed image.  
-  
-The script will process the shapes.jpg image, identify the shapes, and display the result. Press any key to close the displayed image.
+The script will process the `shapes.jpg` image, identify the shapes, and display the result. Press any key to close the displayed image.
