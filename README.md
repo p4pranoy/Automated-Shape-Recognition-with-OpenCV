@@ -18,6 +18,7 @@ Ensure you have Python installed, along with the OpenCV library:
   Bash
 
   pip install opencv-python numpy
+
 How to Run
 ----------------------------------------------------------------------------------------
 1.Place an image named shapes.jpg in the same directory as the script. This image should contain the shapes you wish to recognize.
